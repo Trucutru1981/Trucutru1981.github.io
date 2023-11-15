@@ -1,0 +1,31 @@
+/* estilo_catalogo.css */
+
+body {
+  background-color: #c3ffbf; /* Fondo verde claro */
+  text-align: center; /* Centrar el contenido en medio de la página */
+}
+
+h1, h2 {
+  color: #0044cc; /* Títulos en azul rey */
+}
+
+.menu-categorias select {
+  background-color: #a030a0; /* Fondo morado del menú desplegable */
+  color: #000; /* Letras negras */
+  font-weight: bold; /* Texto en negrita */
+  width: auto; /* Ancho ajustado al contenido (largo de las letras) */
+  margin: 0 10px; /* Margen izquierdo y derecho para centrar el menú */
+}
+
+.informacion-pelicula label {
+  display: inline-block;
+  margin: 10px; /* Espacio entre etiquetas */
+  width: 25%; /* Ancho para centrar dos etiquetas juntas */
+}
+
+#imagen {
+  width: 4cm;
+  height: 4cm;
+  display: block;
+  margin: 0 auto;
+}

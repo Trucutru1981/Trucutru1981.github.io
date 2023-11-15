@@ -1,0 +1,47 @@
+body {
+  animation: cambiaColor 2s infinite;
+}
+
+@keyframes cambiaColor {
+  0% {
+    background-color: #ff0000; /* Rojo al inicio */
+  }
+  25% {
+    background-color: #00ff00; /* Verde al 25% de la animación */
+  }
+  50% {
+    background-color: #0000ff; /* Azul al 50% de la animación */
+  }
+  75% {
+    background-color: #ffff00; /* Amarillo al 75% de la animación */
+  }
+  100% {
+    background-color: #ff00ff; /* Magenta al final */
+  }
+}
+
+/* Centrar títulos */
+h1 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* Alinear etiquetas y campos en dos filas */
+form {
+  display: grid;
+  grid-template-columns: 1fr / 2fr; /* Dos filas */
+  gap: 0.2cm;
+  align-items: center;
+}
+
+/* Estilo para etiquetas */
+label {
+  display: block;
+  margin-bottom: 0.2cm;
+}
+
+/* Estilo para campos de entrada */
+input {
+  display: block;
+  margin-bottom: 0.2cm;
+}

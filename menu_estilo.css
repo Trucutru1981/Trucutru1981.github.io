@@ -1,0 +1,52 @@
+/* menu_estilo.css */
+
+body {
+  background-color: #87CEFA; /* Fondo azul claro */
+  font-family: Arial, sans-serif; /* Fuente predeterminada */
+  text-align: center; /* Centrar el contenido en medio de la página */
+}
+
+h1 {
+  color: #000; /* Título principal en negro */
+  text-align: center; /* Centrar el título */
+  font-weight: bold; /* Texto en negrita */
+  font-size: 24px; /* Tamaño de fuente más grande */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center; /* Centrar la lista */
+}
+
+li {
+  background-color: #FFFF00; /* Fondo amarillo */
+  color: #000; /* Letras en negro */
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+  transition: background-color 0.3s, transform 0.3s; /* Transición de color y transformación al pasar el ratón */
+  font-weight: bold; /* Texto en negrita */
+  font-size: 18px; /* Tamaño de fuente más grande */
+  width: 3cm; /* Ancho de 3 cm */
+  height: 0.8cm; /* Altura reducida a 0.8 cm */
+  text-align: center; /* Centrar el texto en los botones */
+  display: inline-block; /* Mostrar los elementos en línea */
+}
+
+li:hover {
+  background-color: #008000; /* Cambio de color al pasar el ratón (verde) */
+  transform: scale(1.1); /* Efecto de escala al pasar el ratón (aumenta en un 10%) */
+}
+
+/* Estilo específico para el nuevo botón "Ir al catálogo de películas" */
+li:last-child {
+  background-color: #FFA500; /* Fondo naranja */
+  font-weight: normal; /* Texto no en negrita */
+}
+
+li:last-child:hover {
+  background-color: #FFD700; /* Cambio de color al pasar el ratón (amarillo dorado) */
+}
